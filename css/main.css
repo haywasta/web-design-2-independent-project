@@ -38,7 +38,7 @@ nav a {
   padding: 10px 20px;
   color: #452c1c;
   text-decoration: none;
-  transition: all 0.6s;
+  transition: all .6s;
 }
 
 nav a:hover {
@@ -49,8 +49,8 @@ nav a:hover {
 }
 
 .current {
-    background-color: #a44503;
-    color: #e0e6e2;
-    border: none;
-    border-radius: 6px;
+  background-color: #a44503;
+  color: #e0e6e2;
+  border: none;
+  border-radius: 6px;
 }
