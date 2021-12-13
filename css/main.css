@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   background-color: #daa12e;
-  padding: 0 2rem 0;
+  padding: 0 2rem;
   border-bottom: 5px solid #452c1c;
 }
 
@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .skip-links {
-display: none;
+  display: none;
 }
 
 .pano {
@@ -73,7 +73,7 @@ header h1 {
   color: #452c1c;
 }
 
-header img{
+header img {
   width: 3rem;
   align-self: center;
   margin: .5rem;
