@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-nav {
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -53,6 +53,30 @@ nav a:hover {
   color: #e0e6e2;
   border: none;
   border-radius: 6px;
+}
+
+.skip-links {
+display: none;
+}
+
+.pano {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+}
+
+header h1 {
+  display: flex;
+  flex-grow: 2;
+  align-self: center;
+  color: #452c1c;
+}
+
+header img{
+  width: 3rem;
+  align-self: left;
+  margin: .5rem;
+  order: -1;
 }
 
 main {
@@ -135,13 +159,4 @@ ul a img {
   padding: .5em 1.5em .7em;
   border-radius: 6px;
   font-weight: bold;
-}
-
-.skip-links {
-display: none;
-}
-
-.pano {
-  width: 100%;
-  display: grid;
 }
