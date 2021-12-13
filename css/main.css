@@ -82,9 +82,10 @@ ol {
 }
 
 ol > li {
-  border: 3px solid #452c1c;
+  border: 5px solid #452c1c;
   border-radius: 6px;
   padding: 1rem;
+  background-color: #e0e6e2;
 
   display: flex;
   flex-direction: column;
