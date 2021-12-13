@@ -92,7 +92,7 @@ section {
 h2 {
   margin: 0;
   color: #a44503;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 p {
@@ -107,8 +107,8 @@ ol {
   margin: 0;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
 }
 
 ol > li {
@@ -162,13 +162,13 @@ ul a img {
   background-color: #a44503;
   color: #e0e6e2;
   text-decoration: none;
-  padding: .5em 1.5em .7em;
+  padding: 10px 20px;
   border-radius: 6px;
+  font-size: 1.2rem;
 }
 
 footer {
   text-align: center;
-  margin: 0 0 1.5rem;
   font-size: 1.4rem;
   display: flex;
   flex-direction: row;
@@ -178,4 +178,8 @@ footer {
   padding: 1em;
   border-top: 5px solid #452c1c;
   color: #452c1c;
+}
+
+h2 + img {
+  max-width: 40%;
 }
