@@ -127,6 +127,7 @@ h2 + img {
   order: -1;
   max-width: 15em;
   margin-bottom: 1.5rem;
+  max-width: 40%;
 }
 
 ol ul {
@@ -178,8 +179,4 @@ footer {
   padding: 1em;
   border-top: 5px solid #452c1c;
   color: #452c1c;
-}
-
-h2 + img {
-  max-width: 40%;
 }
