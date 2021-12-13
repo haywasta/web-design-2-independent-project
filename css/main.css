@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 main {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 h2 {
@@ -135,4 +135,13 @@ ul a img {
   padding: .5em 1.5em .7em;
   border-radius: 6px;
   font-weight: bold;
+}
+
+.skip-links {
+display: none;
+}
+
+.pano {
+  width: 100%;
+  display: grid;
 }
