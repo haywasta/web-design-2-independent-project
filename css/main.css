@@ -75,7 +75,7 @@ header h1 {
 
 header img{
   width: 3rem;
-  align-self: left;
+  align-self: center;
   margin: .5rem;
   order: -1;
 }
