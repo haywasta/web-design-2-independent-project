@@ -19,7 +19,8 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   background-color: #daa12e;
-  padding: 0 2rem;
+  padding: 0 2rem 0;
+  border-bottom: 5px solid #452c1c;
 }
 
 nav ul {
@@ -80,7 +81,7 @@ header img{
 }
 
 main {
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 h2 {
