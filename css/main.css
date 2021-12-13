@@ -125,7 +125,6 @@ ol > li {
 
 h2 + img {
   order: -1;
-  max-width: 15em;
   margin-bottom: 1.5rem;
   max-width: 40%;
 }
