@@ -64,6 +64,8 @@ nav a:hover {
   width: 100%;
   margin: 0 auto;
   grid-area: banner;
+  border-bottom: 5px solid #452c1c;
+
 }
 
 article {
@@ -78,7 +80,6 @@ article {
 figure {
   min-width: 100px;
   margin: .5rem;
-  padding: 1rem;
 }
 
 figure img {
@@ -205,7 +206,7 @@ footer {
   justify-content: center;
   margin: 0 auto;
   background-color: #daa12e;
-  padding: 1em;
+  padding: 2rem;
   border-top: 5px solid #452c1c;
   color: #452c1c;
 }
