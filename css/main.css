@@ -215,7 +215,8 @@ footer {
 }
 
 main a {
-  display: none;
+  position: absolute;
+  top: -3em;
 }
 
 p {
@@ -223,4 +224,17 @@ p {
   margin: 0 0 1.5rem;
   font-size: 1.4rem;
   color: #452c1c;
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
