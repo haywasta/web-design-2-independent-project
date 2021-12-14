@@ -239,3 +239,8 @@ a:focus {
 .skip-links a:focus {
   top: 0;
 }
+
+figure img {
+  height: 750px;
+  width: 750px;
+}
