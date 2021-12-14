@@ -84,6 +84,8 @@ figure {
 figure img {
   border: 5px solid #452c1c;
   border-radius: 6px;
+  height: 750px;
+  width: 750px;
 }
 
 main {
@@ -238,9 +240,4 @@ a:focus {
 
 .skip-links a:focus {
   top: 0;
-}
-
-figure img {
-  height: 750px;
-  width: 750px;
 }
