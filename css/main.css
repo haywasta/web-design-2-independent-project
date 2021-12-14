@@ -63,8 +63,37 @@ nav a:hover {
 .pano {
   width: 100%;
   margin: 0 auto;
+  grid-area: banner;
+}
+
+article {
+  margin: 1.5rem;
+  grid-area: main;
   display: grid;
-  object-fit: contain;
+  grid-template-rows: auto;
+  grid-template-areas: "col1 col2";
+  gap: 1rem;
+}
+
+figure {
+  min-width: 100px;
+  margin: .5rem;
+  padding: 1rem;
+}
+
+figure img {
+  border: 5px solid #452c1c;
+  border-radius: 6px;
+}
+
+main {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "banner banner"
+    "main main";
+  gap: 1rem;
 }
 
 header h1 {
@@ -79,10 +108,6 @@ header img {
   align-self: center;
   margin: .5rem;
   order: -1;
-}
-
-main {
-  margin: 1.5rem;
 }
 
 section {
@@ -116,6 +141,7 @@ ol > li {
   border-radius: 6px;
   padding: 1rem;
   background-color: #e0e6e2;
+  color: #452c1c;
 
   display: flex;
   flex-direction: column;
