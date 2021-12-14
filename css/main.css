@@ -241,3 +241,11 @@ a:focus {
 .skip-links a:focus {
   top: 0;
 }
+
+.heading {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  color: #e0e6e2;
+  font-size: 7em;
+  margin-top: 50rem;
+}
