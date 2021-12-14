@@ -206,3 +206,7 @@ footer {
   border-top: 5px solid #452c1c;
   color: #452c1c;
 }
+
+main a {
+  display: none;
+}
