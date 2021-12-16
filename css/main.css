@@ -93,8 +93,8 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "banner banner"
-    "main main";
+  "banner banner"
+  "main main";
   gap: 1rem;
 }
 
@@ -251,17 +251,36 @@ a:focus {
 }
 
 @media only screen and (min-width: 25em) {
-  html {
-    font-size: 100%;
-    line-height: 1.3;
+  header {
+    width: 100%;
   }
 
+  header ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header li {
+    width: 50%;
+  }
+
+  h1 {
+    position: absolute;
+    top: -3em;
+  }
+}
+
+@media only screen and (min-width: 45em) {
   header {
-  display: hidden;
-}
+    width: auto;
+  }
 
-h1 img {
-  display: hidden;
-}
+  header ul {
+    flex-wrap: nowrap;
+  }
 
+  h1 {
+    position: absolute;
+    top: -3em;
+  }
 }
