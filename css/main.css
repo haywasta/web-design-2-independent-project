@@ -261,14 +261,13 @@ a:focus {
   }
 
   header li {
-    width: 50%;
+    width: auto;
   }
 
   h1 {
     position: absolute;
     top: -3em;
   }
-}
 
 @media only screen and (min-width: 45em) {
   header {
@@ -280,7 +279,14 @@ a:focus {
   }
 
   h1 {
-    position: absolute;
-    top: -3em;
+    position: relative;
+    top: 0;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  h1 {
+    font-size: 2em;
   }
 }
